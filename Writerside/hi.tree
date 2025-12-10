@@ -6,7 +6,7 @@
                  name="Help Instance"
                  start-page="PLAN.md">
 
-    <toc-element topic="README.md"/>
+    <toc-element topic="PLAN.md"/>
     <toc-element topic="INDICE_AULAS.md"/>
     <toc-element toc-title="Aulas">
         <toc-element toc-title="Linux">
