@@ -3,6 +3,23 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <header-logo>tecnotopos.ico</header-logo>
+        <custom-favicons>tecnotopos.ico</custom-favicons>
+    </variables>
+
+    <footer>
+        <social type="github" href="https://github.com/bomsalvez/">Github</social>
+        <social type="email" href="mail@bomsalvez@gmail.com">Email</social>
+        <social type="linkedin" href="https://www.linkedin.com/in/bomsalvez-freitas/">LinkedIn</social>
+
+        <copyright>2025 Tecnotopos</copyright>
+    </footer>
+
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
 
 </buildprofiles>
