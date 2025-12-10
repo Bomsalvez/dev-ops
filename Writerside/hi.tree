@@ -4,7 +4,7 @@
 
 <instance-profile id="hi"
                  name="Help Instance"
-                 start-page="README.md">
+                 start-page="PLAN.md">
 
     <toc-element topic="README.md"/>
     <toc-element topic="INDICE_AULAS.md"/>
