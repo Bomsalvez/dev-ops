@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="76410c8b">
+        <description>Created after removal of "Plano de Estudos DevOps Completo - 2h/dia" from Help Instance
+        </description>
+        <accepts>plano_estudos_devops_detalhado.html</accepts>
+    </rule>
+</rules>
