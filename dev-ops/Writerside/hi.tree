@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="Help Instance"
+                 start-page="README.md">
+
+    <toc-element topic="README.md"/>
+    <toc-element topic="INDICE_AULAS.md"/>
+    <toc-element topic="plano_estudos_devops_detalhado.md"/>
+    <toc-element toc-title="Aulas">
+        <toc-element toc-title="Linux">
+            <toc-element topic="semana01_dia01_comandos_basicos_linux.md"/>
+            <toc-element topic="semana01_dia02_manipulacao_arquivos.md"/>
+            <toc-element topic="semana01_dia03_permissoes_usuarios.md"/>
+            <toc-element topic="semana01_dia04_variaveis_ambiente.md"/>
+            <toc-element topic="semana01_dia05_processos_servicos.md"/>
+            <toc-element topic="semana01_dia06_gerenciamento_pacotes.md"/>
+            <toc-element topic="semana01_dia07_compactacao_transferencia.md"/>
+            <toc-element topic="semana01_dia08_ssh_seguranca.md"/>
+        </toc-element>
+        <toc-element toc-title="Linux Avançado">
+            <toc-element topic="semana02_dia01_shell_script_parte1.md"/>
+            <toc-element topic="semana02_dia02_shell_script_parte2.md"/>
+            <toc-element topic="semana02_dia03_logs_troubleshooting.md"/>
+        </toc-element>
+        <toc-element toc-title="Vagrant">
+            <toc-element topic="semana03_dia01_vagrant_fundamentos.md"/>
+            <toc-element topic="semana03_dia02_vagrant_config_avancada.md"/>
+            <toc-element topic="semana03_dia03_vagrant_provisionamento.md"/>
+            <toc-element topic="semana03_dia04_vagrant_boxes.md"/>
+            <toc-element topic="semana03_dia05_vagrant_projeto.md"/>
+        </toc-element>
+        <toc-element toc-title="Git">
+            <toc-element topic="semana04_dia01_git_fundamentos.md"/>
+            <toc-element topic="semana04_dia02_git_operacoes_basicas.md"/>
+            <toc-element topic="semana04_dia03_git_conventional_commits.md"/>
+            <toc-element topic="semana04_dia04_git_branches.md"/>
+            <toc-element topic="semana04_dia05_git_merges_conflitos.md"/>
+            <toc-element topic="semana04_dia06_git_avancado.md"/>
+            <toc-element topic="semana04_dia07_git_tags_releases.md"/>
+        </toc-element>
+        <toc-element toc-title="GitHub">
+            <toc-element topic="semana05_dia01_github_essencial.md"/>
+            <toc-element topic="semana05_dia02_github_pull_requests.md"/>
+            <toc-element topic="semana05_dia03_git_flow.md"/>
+        </toc-element>
+        <toc-element toc-title="Ansible">
+            <toc-element topic="semana06_dia01_ansible_fundamentos.md"/>
+            <toc-element topic="semana06_dia02_ansible_playbooks.md"/>
+            <toc-element topic="semana06_dia03_ansible_variaveis_templates.md"/>
+            <toc-element topic="semana06_dia04_ansible_roles.md"/>
+            <toc-element topic="semana06_dia05_ansible_avancado.md"/>
+            <toc-element topic="semana06_dia06_ansible_deploy.md"/>
+            <toc-element topic="semana06_dia07_ansible_projeto.md"/>
+            <toc-element topic="semana07_dia01_ansible_vagrant_integracao.md"/>
+            <toc-element topic="semana07_dia02_ansible_vagrant_projeto.md"/>
+        </toc-element>
+        <toc-element toc-title="Docker">
+            <toc-element topic="semana08_dia01_docker_introducao.md"/>
+            <toc-element topic="semana08_dia02_docker_comandos.md"/>
+            <toc-element topic="semana08_dia03_docker_imagens.md"/>
+            <toc-element topic="semana08_dia04_docker_dockerfile.md"/>
+            <toc-element topic="semana08_dia05_docker_volumes.md"/>
+            <toc-element topic="semana08_dia06_docker_redes.md"/>
+            <toc-element topic="semana08_dia07_docker_projeto.md"/>
+            <toc-element topic="semana09_dia01_docker_multistage.md"/>
+            <toc-element topic="semana09_dia02_docker_otimizacao.md"/>
+            <toc-element topic="semana09_dia03_docker_distroless.md"/>
+            <toc-element topic="semana09_dia04_docker_jvm.md"/>
+            <toc-element topic="semana09_dia05_docker_healthchecks.md"/>
+            <toc-element topic="semana09_dia06_docker_seguranca.md"/>
+            <toc-element topic="semana09_dia07_docker_buildx.md"/>
+        </toc-element>
+        <toc-element toc-title="Docker Compose">
+            <toc-element topic="semana10_dia01_docker_compose_fundamentos.md"/>
+            <toc-element topic="semana10_dia02_docker_compose_avancado.md"/>
+            <toc-element topic="semana10_dia03_docker_compose_ambientes.md"/>
+            <toc-element topic="semana10_dia04_docker_compose_redes.md"/>
+            <toc-element topic="semana10_dia05_docker_compose_recursos.md"/>
+            <toc-element topic="semana10_dia06_docker_compose_projeto_complexo.md"/>
+            <toc-element topic="semana10_dia07_docker_compose_projeto_real.md"/>
+        </toc-element>
+        <toc-element toc-title="Docker Avançado">
+            <toc-element topic="semana11_dia01_docker_patterns.md"/>
+            <toc-element topic="semana11_dia02_docker_dev_containers.md"/>
+            <toc-element topic="semana11_dia03_docker_registry.md"/>
+            <toc-element topic="semana11_dia04_docker_troubleshooting.md"/>
+            <toc-element topic="semana11_dia05_docker_projeto_final.md"/>
+        </toc-element>
+        <toc-element toc-title="GitHub Actions">
+            <toc-element topic="semana12_dia01_github_actions_fundamentos.md"/>
+            <toc-element topic="semana12_dia02_github_actions_ci.md"/>
+            <toc-element topic="semana12_dia03_github_actions_avancado.md"/>
+            <toc-element topic="semana12_dia04_github_actions_cd.md"/>
+        </toc-element>
+        <toc-element toc-title="CI/CD - GitLab e Jenkins">
+            <toc-element topic="semana13_dia01_gitlab_ci_fundamentos.md"/>
+            <toc-element topic="semana13_dia02_gitlab_ci_avancado.md"/>
+            <toc-element topic="semana13_dia03_jenkins_setup.md"/>
+            <toc-element topic="semana13_dia04_jenkins_pipelines.md"/>
+            <toc-element topic="semana13_dia05_jenkins_avancado.md"/>
+            <toc-element topic="semana13_dia06_ci_cd_projeto.md"/>
+            <toc-element topic="semana13_dia07_ci_cd_comparativo.md"/>
+        </toc-element>
+        <toc-element toc-title="Nginx">
+            <toc-element topic="semana14_dia01_nginx_fundamentos.md"/>
+            <toc-element topic="semana14_dia02_nginx_configuracao.md"/>
+            <toc-element topic="semana14_dia03_nginx_reverse_proxy.md"/>
+            <toc-element topic="semana14_dia04_nginx_load_balancer.md"/>
+            <toc-element topic="semana14_dia05_nginx_docker.md"/>
+            <toc-element topic="semana14_dia06_nginx_compose.md"/>
+            <toc-element topic="semana14_dia07_nginx_avancado.md"/>
+            <toc-element topic="semana15_dia01_nginx_reescrita.md"/>
+            <toc-element topic="semana15_dia02_nginx_logs_monitoring.md"/>
+            <toc-element topic="semana15_dia03_nginx_api_gateway.md"/>
+            <toc-element topic="semana15_dia04_nginx_performance.md"/>
+        </toc-element>
+        <toc-element toc-title="Monitoramento e Observabilidade">
+            <toc-element topic="semana16_dia01_monitoramento_fundamentos.md"/>
+            <toc-element topic="semana16_dia02_grafana.md"/>
+            <toc-element topic="semana16_dia03_influxdb.md"/>
+            <toc-element topic="semana16_dia04_telegraf.md"/>
+            <toc-element topic="semana16_dia05_stack_tick.md"/>
+            <toc-element topic="semana16_dia06_prometheus_grafana.md"/>
+            <toc-element topic="semana16_dia07_alertas.md"/>
+            <toc-element topic="semana17_dia01_elk_stack.md"/>
+            <toc-element topic="semana17_dia02_logs_centralizados.md"/>
+            <toc-element topic="semana17_dia03_observabilidade_projeto.md"/>
+        </toc-element>
+        <toc-element toc-title="Kubernetes">
+            <toc-element topic="semana18_dia01_kubernetes_introducao.md"/>
+            <toc-element topic="semana18_dia02_kubernetes_pods.md"/>
+            <toc-element topic="semana18_dia03_kubernetes_deployments.md"/>
+            <toc-element topic="semana18_dia04_kubernetes_services.md"/>
+            <toc-element topic="semana18_dia05_kubernetes_configmaps_secrets.md"/>
+            <toc-element topic="semana18_dia06_kubernetes_volumes.md"/>
+            <toc-element topic="semana18_dia07_kubernetes_projeto_basico.md"/>
+            <toc-element topic="semana19_dia01_kubernetes_statefulsets.md"/>
+            <toc-element topic="semana19_dia02_kubernetes_ingress.md"/>
+            <toc-element topic="semana19_dia03_kubernetes_autoscaling.md"/>
+            <toc-element topic="semana19_dia04_kubernetes_rbac.md"/>
+            <toc-element topic="semana19_dia05_kubernetes_helm.md"/>
+            <toc-element topic="semana19_dia06_kubernetes_troubleshooting.md"/>
+            <toc-element topic="semana19_dia07_kubernetes_projeto.md"/>
+        </toc-element>
+        <toc-element toc-title="Terraform">
+            <toc-element topic="semana20_dia01_terraform_fundamentos.md"/>
+            <toc-element topic="semana20_dia02_terraform_recursos.md"/>
+            <toc-element topic="semana20_dia03_terraform_state.md"/>
+            <toc-element topic="semana20_dia04_terraform_variaveis.md"/>
+            <toc-element topic="semana20_dia05_terraform_modulos.md"/>
+            <toc-element topic="semana20_dia06_terraform_avancado.md"/>
+            <toc-element topic="semana20_dia07_terraform_projeto.md"/>
+            <toc-element topic="semana21_dia01_terraform_docker.md"/>
+            <toc-element topic="semana21_dia02_terraform_kubernetes.md"/>
+            <toc-element topic="semana21_dia03_terraform_boas_praticas.md"/>
+            <toc-element topic="semana21_dia04_terraform_projeto_final.md"/>
+        </toc-element>
+        <toc-element toc-title="AWS">
+            <toc-element topic="semana22_dia01_aws_introducao.md"/>
+            <toc-element topic="semana22_dia02_aws_iam.md"/>
+            <toc-element topic="semana22_dia03_aws_vpc.md"/>
+            <toc-element topic="semana22_dia04_aws_ec2_parte1.md"/>
+            <toc-element topic="semana22_dia05_aws_ec2_parte2.md"/>
+            <toc-element topic="semana22_dia06_aws_s3.md"/>
+            <toc-element topic="semana22_dia07_aws_route53.md"/>
+            <toc-element topic="semana23_dia01_aws_rds.md"/>
+            <toc-element topic="semana23_dia02_aws_lambda.md"/>
+            <toc-element topic="semana23_dia03_aws_api_gateway.md"/>
+            <toc-element topic="semana23_dia04_aws_sqs_sns.md"/>
+            <toc-element topic="semana23_dia05_aws_dynamodb.md"/>
+            <toc-element topic="semana23_dia06_aws_cloudwatch.md"/>
+            <toc-element topic="semana23_dia07_aws_projeto_backend.md"/>
+            <toc-element topic="semana24_dia01_aws_ecr.md"/>
+            <toc-element topic="semana24_dia02_aws_ecs_parte1.md"/>
+            <toc-element topic="semana24_dia03_aws_ecs_parte2.md"/>
+            <toc-element topic="semana24_dia04_aws_eks.md"/>
+            <toc-element topic="semana24_dia05_aws_cognito.md"/>
+        </toc-element>
+        <toc-element toc-title="Localstack">
+            <toc-element topic="semana25_dia01_localstack_introducao.md"/>
+            <toc-element topic="semana25_dia02_localstack_aws_cli.md"/>
+            <toc-element topic="semana25_dia03_localstack_lambda.md"/>
+            <toc-element topic="semana25_dia04_localstack_dynamodb.md"/>
+            <toc-element topic="semana25_dia05_localstack_terraform.md"/>
+            <toc-element topic="semana25_dia06_localstack_projeto.md"/>
+        </toc-element>
+        <toc-element toc-title="Projetos Integrados">
+            <toc-element topic="semana26_projeto_integrado_1.md"/>
+            <toc-element topic="semana27_projeto_integrado_2.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
