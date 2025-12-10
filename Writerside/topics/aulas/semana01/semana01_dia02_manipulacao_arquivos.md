@@ -357,7 +357,7 @@ cd /var/log/aplicacao
 tail -f application.log
 
 # 4. Em outro terminal, buscar erros das últimas 24h
-grep "ERROR" application.log | grep "$(date +%Y-%m-%d)"
+grep "ERROR" application.log | grep "\$(date +%Y-%m-%d)"
 
 # 5. Contar tipos de erro
 grep "ERROR" application.log | awk '{print $4}' | sort | uniq -c | sort -rn
@@ -370,7 +370,7 @@ grep -A 10 -B 10 "OutOfMemoryError" application.log
 
 # 8. Salvar relatório
 {
-  echo "=== Relatório de Erros - $(date) ==="
+  echo "=== Relatório de Erros - \$(date) ==="
   echo ""
   echo "Total de erros:"
   grep -c "ERROR" application.log
@@ -457,7 +457,7 @@ grep "ERROR" application.log | sort | uniq | wc -l
 tail -f application.log | grep --line-buffered "ERROR\|FATAL"
 
 # 5. Salvar relatório
-grep "ERROR\|FATAL" application.log > relatorio-$(date +%Y%m%d-%H%M%S).txt
+grep "ERROR\|FATAL" application.log > relatorio-\$(date +%Y%m%d-%H%M%S).txt
 ```
 </details>
 

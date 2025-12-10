@@ -406,7 +406,7 @@ chmod 600 .env
 cat > load-env.sh << 'EOF'
 #!/bin/bash
 if [ -f .env ]; then
-    export $(cat .env | grep -v '^#' | xargs)
+    export \$(cat .env | grep -v '^#' | xargs)
     echo "Variáveis carregadas!"
 else
     echo "Arquivo .env não encontrado!"
@@ -432,7 +432,7 @@ mkdir -p ~/bin
 # 2. Criar script útil
 cat > ~/bin/backup-projeto << 'EOF'
 #!/bin/bash
-TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+TIMESTAMP=\$(date +%Y%m%d_%H%M%S)
 tar -czf ~/backups/projeto_${TIMESTAMP}.tar.gz ~/projeto
 echo "Backup criado: projeto_${TIMESTAMP}.tar.gz"
 EOF
@@ -539,7 +539,7 @@ fi
 
 # Carregar variáveis do ambiente
 if [ -f "config/${ENVIRONMENT}.env" ]; then
-    export $(cat config/${ENVIRONMENT}.env | grep -v '^#' | xargs)
+    export \$(cat config/${ENVIRONMENT}.env | grep -v '^#' | xargs)
     echo "✅ Variáveis do ambiente ${ENVIRONMENT} carregadas"
 else
     echo "❌ Arquivo config/${ENVIRONMENT}.env não encontrado"
@@ -627,8 +627,8 @@ alias d='docker'
 alias dc='docker-compose'
 alias dps='docker ps'
 alias dimg='docker images'
-alias drm='docker rm $(docker ps -aq)'
-alias drmi='docker rmi $(docker images -q)'
+alias drm='docker rm \$(docker ps -aq)'
+alias drmi='docker rmi \$(docker images -q)'
 
 # Kubernetes
 alias k='kubectl'

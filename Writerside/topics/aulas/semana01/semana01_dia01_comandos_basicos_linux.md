@@ -294,7 +294,7 @@ tree ~/devops-project  # (instale com: sudo apt install tree)
 
 1. **Conectar ao servidor:** `ssh usuario@servidor`
 2. **Navegar até o diretório:** `cd /var/www/app`
-3. **Fazer backup:** `cp -r app app_backup_$(date +%Y%m%d)`
+3. **Fazer backup:** `cp -r app app_backup_\$(date +%Y%m%d)`
 4. **Baixar nova versão:** `git pull origin main`
 5. **Ajustar permissões:** `chmod 755 scripts/*.sh`
 6. **Verificar logs:** `cat /var/log/app.log`

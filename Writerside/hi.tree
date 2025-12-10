@@ -8,7 +8,6 @@
 
     <toc-element topic="README.md"/>
     <toc-element topic="INDICE_AULAS.md"/>
-    <toc-element topic="plano_estudos_devops_detalhado.md"/>
     <toc-element toc-title="Aulas">
         <toc-element toc-title="Linux">
             <toc-element topic="semana01_dia01_comandos_basicos_linux.md"/>

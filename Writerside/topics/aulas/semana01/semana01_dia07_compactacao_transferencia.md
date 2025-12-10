@@ -92,7 +92,7 @@ rsync -avz --progress pasta/ user@servidor:/path/
 
 #!/bin/bash
 BACKUP_DIR=~/backups
-DATE=$(date +%Y%m%d_%H%M%S)
+DATE=\$(date +%Y%m%d_%H%M%S)
 
 mkdir -p $BACKUP_DIR
 
